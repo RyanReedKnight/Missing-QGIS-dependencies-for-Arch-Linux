@@ -1,6 +1,6 @@
 # Missing QGIS dependncies
 
-It apears that qgis in the arch linux repos does not automatically include all of the neccesary dependencies
+It apears that qgis in the Arch Linux repos does not automatically include all of the neccesary dependencies
 for the application to run as expected, as when I initialy installed it, various errors related to missing
 python modules came up.
 
