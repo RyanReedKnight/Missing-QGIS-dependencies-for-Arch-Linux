@@ -8,8 +8,9 @@ When I installed these dependencies, qgis, installed via pacman, ran without the
 I found most of the packages by digging through [this bug report](https://bugs.archlinux.org/task/77947?project=1&string=qgis), I do not
 know if they are all necessary.
 
-For those who dont know, run the following command in the directory with the txt file to install all of the packages.
+For those who dont know, run the following command in a directory with the txt file to install all of the packages.
 ```
 sudo pacman -Syu --needed --noconfirm - < missing-qgis-packages.txt
 ```
+
 If you try it and errors persist, I would appreciate you letting me know.
