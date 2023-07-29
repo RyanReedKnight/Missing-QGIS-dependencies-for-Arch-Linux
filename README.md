@@ -10,7 +10,17 @@ know if they are all necessary.
 
 For those who dont know, run the following command in a directory with the txt file to install all of the packages.
 ```
+
 sudo pacman -Syu --needed --noconfirm - < missing-qgis-packages.txt
+
+```
+Or if your super lazy you can copy and paste this.
+```
+
+sudo pacman -S --needed git && \
+git clone https://github.com/RyanReedKnight/Missing-QGIS-dependencies-for-Arch-Linux.git && \
+sudo pacman -Syu --needed - < Missing-QGIS-dependencies-for-Arch-Linux/missing-qgis-packages.txt
+
 ```
 
 If you try it and errors persist, I would appreciate you letting me know.
