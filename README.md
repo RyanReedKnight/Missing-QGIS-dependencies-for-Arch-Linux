@@ -12,7 +12,7 @@ For those who dont know, run the following command in a directory with the txt f
 ```
 sudo pacman -S --needed - < missing-qgis-packages.txt
 ```
-Or if your super lazy you can copy and paste this.
+Or if you are super lazy you can copy and paste this.
 ```
 sudo pacman -S --needed git && \
 git clone https://github.com/RyanReedKnight/Missing-QGIS-dependencies-for-Arch-Linux.git && \
