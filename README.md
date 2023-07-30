@@ -17,6 +17,7 @@ Or if you are super lazy you can copy and paste this.
 sudo pacman -S --needed git && \
 git clone https://github.com/RyanReedKnight/Missing-QGIS-dependencies-for-Arch-Linux.git && \
 sudo pacman -S --needed - < Missing-QGIS-dependencies-for-Arch-Linux/missing-qgis-deps.txt
+rm -rf Missing-QGIS-dependencies-for-Arch-Linux
 ```
 
 If you try it and errors persist, I would appreciate you letting me know.
